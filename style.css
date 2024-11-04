@@ -251,6 +251,14 @@ p#p1 {
     margin: 5px 0;
 }
 
+h1#htres1 {
+    font-size: 25px;
+    color: #FBC02D;
+    margin: 10px 0;
+    text-align: left;
+    width: 65%;
+}
+
 @media (max-width: 768px) {
     div#header2 {
         padding: 1%;
