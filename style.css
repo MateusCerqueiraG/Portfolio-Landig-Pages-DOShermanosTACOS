@@ -337,7 +337,7 @@ p#p1 {
     }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 600px) {
     h3 {
         font-size: 15px;
     }
@@ -350,5 +350,9 @@ p#p1 {
         width: 100%;
         margin-bottom: 10px; 
         font-size: 10px;
+}
+
+section#tquatro {
+    width: 100%;
 }
 }
