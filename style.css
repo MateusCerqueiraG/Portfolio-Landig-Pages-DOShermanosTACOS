@@ -219,7 +219,7 @@ p#p1 {
 
 .footer-logo {
     max-width: 350px;
-    margin-right: 20px;
+    margin-left: 35px;
 }
 
 .txtFooter22 {
@@ -324,8 +324,11 @@ p#p1 {
     .footer-logo {
         margin-right: 0; 
         margin-bottom: -40px;
-        margin-top: -40px; 
         max-width: 200px;
+    }
+
+    .txtFooter22 {
+        font-size: 35px;
     }
 
     .txtFooter {
