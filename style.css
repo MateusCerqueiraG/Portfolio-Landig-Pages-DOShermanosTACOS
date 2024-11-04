@@ -56,7 +56,7 @@ div#header2 {
 
 #header2 a:link,
 #header2 a:visited {
-    color: #ffffff;
+    color: #FFF8E1;
     text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ div.text-container {
 
 h1#hum {
     font-size: 45px;
-    color: #ffffff;
+    color: #FFF8E1;
     text-align: left;
 }
 
@@ -117,7 +117,138 @@ p {
 }
 
 .vermeio {
+    color: #FBC02D;
+}
+
+.vermeio1 {
     color: #D32F2F;
+}
+
+section#tquatro {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F57C00;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-left, .menu-right {
+    width: 45%;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.vermeio2 {
+    color: #D32F2F;
+    font-size: 85px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #388E3C;
+    font-size: 55px;
+}
+
+.menu-left h2, .menu-right h3 {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-left ul, .menu-right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    color: #FFF8E1;
+}
+
+.menu-right img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+section#tcinco {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #F57C00;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+img#Comida {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+p#p1 {
+    color: #000000;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    width: 45%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #F57C00; 
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    max-width: 350px;
+    margin-right: 20px;
+}
+
+.txtFooter22 {
+    text-align: center;
+    color: #FFF8E1;
+    flex: 1;
+    margin: 5px 0;
+    font-size: 65px;
+}
+
+.txtFooter2 {
+    text-align: center;
+    color: #FBC02D;
+    flex: 1;
+    margin: 5px 0;
+}
+
+.txtFooter {
+    text-align: center;
+    color: #388E3C;
+    flex: 1;
+    margin: 5px 0;
+}
+
+.txtFooter3 {
+    text-align: center;
+    color: #D32F2F;
+    flex: 1;
+    margin: 5px 0;
 }
 
 @media (max-width: 768px) {
@@ -161,4 +292,60 @@ p {
     p {
         font-size: 10px;
     }
+
+    p#p1 {
+        font-size: 10px;
+    }
+
+    .menu-left, .menu-right {
+            width: 100%;
+            margin-bottom: 20px; 
+            font-size: 10px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .vermeio2 {
+        font-size: 35px;
+    }
+
+    img#Comida {
+        width: 45%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .footer-logo {
+        margin-right: 0; 
+        margin-bottom: -40px;
+        margin-top: -40px; 
+        max-width: 200px;
+    }
+
+    .txtFooter {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 510px) {
+    h3 {
+        font-size: 15px;
+    }
+
+    .vermeio2 {
+        font-size: 25px;
+    }
+
+    .menu-left, .menu-right {
+        width: 100%;
+        margin-bottom: 10px; 
+        font-size: 10px;
+}
 }
