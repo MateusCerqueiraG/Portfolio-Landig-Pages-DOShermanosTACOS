@@ -102,6 +102,12 @@ h1#hum {
     text-align: left;
 }
 
+h1#hum1 {
+    font-size: 45px;
+    color: #FFF8E1;
+    text-align: center;
+}
+
 h1#htres {
     font-size: 25px;
     color: #FBC02D;
@@ -291,6 +297,10 @@ h1#htres1 {
     }
 
     h1#hum {
+        font-size: 15px;
+    }
+
+    h1#hum1 {
         font-size: 15px;
     }
 
