@@ -301,7 +301,6 @@ p#p1 {
             width: 100%;
             margin-bottom: 20px; 
             font-size: 10px;
-            margin-right: 30px; 
     }
 
     h3 {
@@ -338,7 +337,7 @@ p#p1 {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 510px) {
     h3 {
         font-size: 15px;
     }
@@ -351,6 +350,5 @@ p#p1 {
         width: 100%;
         margin-bottom: 10px; 
         font-size: 10px;
-        margin-right: 20px; 
 }
 }
